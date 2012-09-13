@@ -1,7 +1,10 @@
 <?php
 // module/Album/Module.php
-
 namespace Album;
+
+// Add this import statement:
+use Album\Model\AlbumTable;
+
 
 class Module
 {
